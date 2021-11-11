@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class RestaurantDetaisScreen extends StatelessWidget {
-  const RestaurantDetaisScreen({Key? key}) : super(key: key);
+class RestaurantDetailsScreen extends StatelessWidget {
+  const RestaurantDetailsScreen({Key? key}) : super(key: key);
 
-  static const String routeName = '/restauran-details';
+  static const String routeName = '/restaurant-details';
 
   static Route route() {
     return MaterialPageRoute(
-      builder: (_) => const RestaurantDetaisScreen(),
+      builder: (_) => const RestaurantDetailsScreen(),
     );
   }
 
