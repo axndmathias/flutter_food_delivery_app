@@ -17,10 +17,9 @@ class AppRouter {
       // ignore: no_duplicate_case_values
       case HomeScreen.routeName:
         return HomeScreen.route();
-      // ignore: no_duplicate_case_values
+
       case LocationScreen.routeName:
         return LocationScreen.route();
-      // ignore: dead_code
 
       case BasketScreen.routeName:
         return BasketScreen.route();
