@@ -15,13 +15,24 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Home')),
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text('Home'),
+      ),
       body: Center(
         child: ElevatedButton(
+          style:
+              ElevatedButton.styleFrom(primary: Theme.of(context).primaryColor),
           onPressed: () {
             Navigator.pushNamed(context, '/location');
           },
-          child: const Text('Location Screen'),
+          child: Text(
+            'Location Screen',
+            style: Theme.of(context)
+                .textTheme
+                .headline2
+                ?.copyWith(color: Colors.white),
+          ),
         ),
       ),
     );

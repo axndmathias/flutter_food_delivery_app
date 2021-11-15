@@ -10,7 +10,7 @@ ThemeData theme() {
     scaffoldBackgroundColor: Colors.white,
     backgroundColor: const Color(0xFFF5F5F5),
     //font familiy
-    fontFamily: 'Georgia',
+    fontFamily: 'Futura',
 
     // text theme
     textTheme: const TextTheme(
